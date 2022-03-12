@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * main - Determine whether greter than 5, is less than 6, or is 0
+ * main - Determines either greter than 5, is less than 6, or is 0
  *
  * Return: Always 0 (Success)
  */
@@ -22,7 +22,7 @@ int main(void)
 	{
 		printf("Last digit of %d is %d and is 0\n", n, 1);
 	}
-	else if (m < 6 && m != 0)
+	else
 	{
 		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, 1);
 	}
