@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * _abs - value absolute
+ * print_sign - value absolute
  *
  * @n: The int to print
  * Return: Always return 0
@@ -25,6 +25,5 @@ int print_sign(int n)
 		_putchar(48);
 		return (0);
 	}
-	_putchar('\n')
-		return (0);
+	_putchar('\n');
 }
