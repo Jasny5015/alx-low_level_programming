@@ -3,21 +3,29 @@
 
 /**
  *print_array - prints n elements of an array of integers
- *@a: input array.
- *@n: input n elements
- *Return: no return
+ *@a: A pointer to an int that will be updated/ changed
+ *@n: return value n
+ *Return: void which ,means our answer is correct
  */
 
-void print_array(int *a, int n)
+void print_array(int *a, innt n)
 {
-	int i = 0;
+int i;
 
-	for (; i < n; i++)
+i = 0;
+while (i < n)
+{
+	printf("%d", a[i]);
+
+	if (i < n - 1)
 	{
-		printf("%d", *a(i + 1));
-		if (i != (n - 1))
-			printf(", ");
+		printf(",");
 	}
-		printf("\n")
-		;
+
+	i++;
 }
+
+printf("\n")
+;
+}
+
