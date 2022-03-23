@@ -8,7 +8,7 @@
  *Return: void which ,means our answer is correct
  */
 
-void print_array(int *a, innt n)
+void print_array(int *a, int n)
 {
 int i;
 
@@ -28,4 +28,3 @@ while (i < n)
 printf("\n")
 ;
 }
-
