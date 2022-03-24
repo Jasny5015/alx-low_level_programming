@@ -21,10 +21,10 @@ char *cap_string(char *s)
 			{
 			if ((*(s + (count + 1)) >= 97) && (*(s + (count + 1)) <= 122))
 				*(s + (count + 1) = *(s + (count + 1)) - 32;
-	break;
+						break;
+			}
+		}
+		count++;
 	}
-	}
-count++;
-}
-return (s);
+	return (s);
 }
