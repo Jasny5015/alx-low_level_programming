@@ -3,7 +3,7 @@
 /**
  * main - check the code
  *
- * Return: return 0
+ * Return: 0
  */
 int main(void)
 {
@@ -11,7 +11,7 @@ int main(void)
 	char *f = "world";
 	char *t;
 
-	t = _strstr(s, f);
-	printf("%s\n", t);
-	return (0);
+	t = _strstr(s, f)
+		printf("%s\n", t)
+		return (0);
 }
